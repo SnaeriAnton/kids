@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4243cd72e6cc4c16827dc1b8370184bc, type: 3}
+  m_Name: Dictionary
+  m_EditorClassIdentifier: Game::Game.LocalizationSystem.Dictionary
+  _words:
+  - Key: SET_CUBE
+    RU: "\u041F\u041E\u0421\u0422\u0410\u0412\u0418\u041B \u041A\u0423\u0411\u0418\u041A"
+    EN: PLACED CUBE
+  - Key: THROW_AWAY_CUBE
+    RU: "\u0412\u042B\u041A\u0418\u041D\u0423\u041B \u041A\u0423\u0411\u0418\u041A"
+    EN: THROW AWAY CUBE
+  - Key: CUBE_DISAPPEAR
+    RU: "\u041A\u0423\u0411\u0418\u041A \u041F\u0420\u041E\u041F\u0410\u041B"
+    EN: CUBE DISAPPEARED
+  - Key: REACHED_LIMIT
+    RU: "\u0414\u041E\u0421\u0422\u0418\u0413 \u041B\u0418\u041C\u0418\u0422\u0410"
+    EN: REACHED LIMIT
