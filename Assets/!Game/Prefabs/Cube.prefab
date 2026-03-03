@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2428221861418874253}
-  - component: {fileID: 6278142328666405537}
+  - component: {fileID: 1155544589874966395}
   - component: {fileID: 1066319398443384217}
   m_Layer: 0
   m_Name: Model
@@ -33,9 +33,8 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4208096589302845668}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &6278142328666405537
+--- !u!212 &1155544589874966395
 SpriteRenderer:
-  serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -51,15 +50,10 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -77,24 +71,23 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 4
-  m_MaskInteraction: 0
-  m_Sprite: {fileID: -855298285791758126, guid: 498c52febcc7da54cac0e8ceeea624cb, type: 3}
+  m_SortingOrder: 3
+  m_Sprite: {fileID: 875800099, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.8264971, y: 1.7900001}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!95 &1066319398443384217
 Animator:
-  serializedVersion: 7
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -108,7 +101,6 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -156,7 +148,6 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6628704393306617437}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -180,9 +171,8 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.010431796, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -192,7 +182,8 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.79, y: 1.79}
+  serializedVersion: 2
+  m_Size: {x: 1.8108635, y: 1.79}
   m_EdgeRadius: 0
 --- !u!114 &5333860233956544035
 MonoBehaviour:
@@ -206,7 +197,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 54f0c29ced083a344ac3abc551bf9a4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Cube
-  _spriteRenderer: {fileID: 6278142328666405537}
+  _spriteRenderer: {fileID: 1155544589874966395}
   _animator: {fileID: 1066319398443384217}
   _collider: {fileID: 6318097713424233604}
-  _delay: 1
+  _scaleBeforeDestroy: {x: 1.6, y: 1.6}
+  _scaleBeforeDelay: 0.1
+  _scaleDisappearDelay: 0.2
+  _destroyDelay: 1

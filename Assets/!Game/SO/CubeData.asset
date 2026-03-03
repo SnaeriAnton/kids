@@ -13,43 +13,43 @@ MonoBehaviour:
   m_Name: CubeData
   m_EditorClassIdentifier: Assembly-CSharp::CubeData
   _cubeInfos:
-  - Sprite: {fileID: -855298285791758126, guid: 498c52febcc7da54cac0e8ceeea624cb, type: 3}
+  - Sprite: {fileID: 875800099, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_01
-  - Sprite: {fileID: 6937817954938267909, guid: f02e3382eac3abd43b9f00fdc0cfbf9d, type: 3}
+  - Sprite: {fileID: -670036768, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_02
-  - Sprite: {fileID: -6470460504253458178, guid: d425eb28e4d520041847d2aa308b3352, type: 3}
+  - Sprite: {fileID: 35868389, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_03
-  - Sprite: {fileID: -4178046375966092550, guid: be0cda31892f9fd40a6128b6cf55c5ba, type: 3}
+  - Sprite: {fileID: -650083801, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_04
-  - Sprite: {fileID: 4130640169021434097, guid: 676e428bb317ab54c885d1ad4499aaf0, type: 3}
+  - Sprite: {fileID: -1748332011, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_05
-  - Sprite: {fileID: 3465286685962602723, guid: 6e11b51ef60c4ab43ac0c048bc2ecb85, type: 3}
+  - Sprite: {fileID: -1228063014, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_06
-  - Sprite: {fileID: 7028616704906629411, guid: e95b1d29a3d06b04c87948350940d7b3, type: 3}
+  - Sprite: {fileID: -830781946, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_07
-  - Sprite: {fileID: 8288426215254106694, guid: 64e22e0e993046446968d9ad12ea0be4, type: 3}
+  - Sprite: {fileID: 1991794519, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_08
-  - Sprite: {fileID: 4113829005332862926, guid: 6ccd16437b2533747995be65c968ca0d, type: 3}
+  - Sprite: {fileID: -324955639, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_09
-  - Sprite: {fileID: -5099292496197868168, guid: e22a3a5ca23351a488ab46681088dee4, type: 3}
+  - Sprite: {fileID: 942867770, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_10
-  - Sprite: {fileID: -2966200626249415253, guid: 987d3001fbbfeb64b8b2c35e11e147b1, type: 3}
+  - Sprite: {fileID: 21006945, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_11
-  - Sprite: {fileID: -1540426309290004842, guid: 50822e3effda5154e9747d56c50f8f25, type: 3}
+  - Sprite: {fileID: -1671288154, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_12
-  - Sprite: {fileID: 8389134475083476877, guid: 5b633a44680bcf6449c1ea792ddac98a, type: 3}
+  - Sprite: {fileID: -959644392, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_13
-  - Sprite: {fileID: -6270953770400647376, guid: 4d7c716a81a113f4286b3ffd1521d25c, type: 3}
+  - Sprite: {fileID: -1098025513, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_14
-  - Sprite: {fileID: 4349915267927364619, guid: 1f1030240d794244a8e693c84b8021e0, type: 3}
+  - Sprite: {fileID: -336834376, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_15
-  - Sprite: {fileID: 7680820834086852892, guid: e4dd2f25ed3cc5f45ad851fd00148943, type: 3}
+  - Sprite: {fileID: 211107500, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_16
-  - Sprite: {fileID: 6660783624410144326, guid: 31a1f96adc2f2cc4fad2721b3625af19, type: 3}
+  - Sprite: {fileID: 415414475, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_17
-  - Sprite: {fileID: 2960402581040015946, guid: 9fa4bc3ffa2f3e446a338547ac0ea7a0, type: 3}
+  - Sprite: {fileID: 394789394, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_18
-  - Sprite: {fileID: 7157561037332017152, guid: 791c3bd182d34d9418327e6f1c15b7a5, type: 3}
+  - Sprite: {fileID: 1874240167, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_19
-  - Sprite: {fileID: 4164744761163438241, guid: 1a2ab32ab4ab2ec44ab0bc10f6428547, type: 3}
+  - Sprite: {fileID: 2067351026, guid: 951c11b49fbc60a4a9aaac1be7bcd19f, type: 3}
     ID: cube_20
